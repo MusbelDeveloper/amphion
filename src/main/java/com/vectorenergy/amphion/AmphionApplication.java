@@ -19,10 +19,10 @@ import java.util.TimeZone;
 @ComponentScan(basePackages = "com.vectorenergy.amphion.*")
 public class AmphionApplication implements CommandLineRunner {
 
-	/*@PostConstruct
+	@PostConstruct
 	void started() {
 		TimeZone.setDefault(TimeZone.getTimeZone("Europe/Madrid"));
-	}*/
+	}
 
 	@Autowired
 	WorkOrder wo;
